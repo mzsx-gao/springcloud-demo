@@ -1,4 +1,4 @@
-package com.springcloud.microorder.controller;
+package com.springcloud.dashboard.controller;
 
 import lombok.Data;
 

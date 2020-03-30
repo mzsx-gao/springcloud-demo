@@ -21,6 +21,9 @@
         <module>micro-order-8085</module>
         <module>micro-order-8084</module>
         <module>springcloud-dashboard</module>
+        <module>config-server</module>
+        <module>config-client-8086</module>
+        <module>config-client-8087</module>
     </modules>
 
     <properties>

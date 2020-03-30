@@ -1,4 +1,4 @@
-package com.springcloud.microorder;
+package com.springcloud.dashboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
