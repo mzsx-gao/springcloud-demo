@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 * 这个类最好不要出现在启动类的@ComponentScan扫描范围
 * 如果出现在@ComponentScan扫描访问，那么这个配置类就是每个服务共用的配置了
 * */
-@Configuration
+//@Configuration
 public class RibbonLoadBalanceMicroOrderConfig {
 
 //    @RibbonClientName
