@@ -25,6 +25,8 @@
         <module>config-client-8086</module>
         <module>config-client-8087</module>
         <module>custom-config-server</module>
+        <module>micro-zuul</module>
+        <module>micro-admin</module>
     </modules>
 
     <properties>
