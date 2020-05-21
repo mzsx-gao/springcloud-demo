@@ -16,6 +16,7 @@ public class MicrozuulApplication {
         SpringApplication.run(MicrozuulApplication.class,args);
     }
 
+    //这里可以实现路由动态刷新,如果不需要动态刷新路由，则不需要配置这个bean
     @Bean
     @RefreshScope
     @ConfigurationProperties("zuul")
