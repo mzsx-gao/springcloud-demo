@@ -28,6 +28,13 @@ public class HystrixTest {
     @Rule
     public ContiPerfRule contiPerfRule = new ContiPerfRule();
 
+    /**
+     * 以下两个方法是为了测试hystrix的隔离策略
+     * 结论：
+     * 1.线程池隔离策略，hystrix 是会单独创建线程的
+     * 2.信号量隔离不会单独开启线程，是采用一个全局变量来控制并发量，一个请求过来全局变量加 1，
+     *   单加到跟配置 中的大小相等是就不再接受用户请求了
+     */
     @Test
     public void hystrixTest() throws Exception{
         for (Integer i = 0; i < count; i++) {
